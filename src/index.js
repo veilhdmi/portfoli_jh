@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { Navbar } from './files/Navbar/Navbar.jsx';
 import reportWebVitals from './reportWebVitals';
+import { ScrollDemo } from './files/Windows/Scroll.jsx';
+import MainPage, {Main} from './files/Windows/Main.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MainPage></MainPage>
   </React.StrictMode>
 );
 
